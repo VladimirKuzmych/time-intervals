@@ -1,15 +1,15 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { timeIntervalsComponents } from './components';
 import { RouterModule } from '@angular/router';
 import { timeIntervalRoutes } from './time-intervals.routes';
+import { SharedModule } from '../../shared/shared.module';
 
 
 @NgModule({
     declarations: [...timeIntervalsComponents],
     imports: [
-        CommonModule,
         RouterModule.forChild(timeIntervalRoutes),
+        SharedModule,
     ],
     exports: [...timeIntervalsComponents],
 })
