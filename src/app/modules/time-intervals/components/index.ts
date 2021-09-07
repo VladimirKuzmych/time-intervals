@@ -5,3 +5,8 @@ export const timeIntervalsComponents = [
     TimeIntervalsContainerComponent,
     TimeIntervalSelectComponent,
 ];
+
+export {
+    TimeIntervalSelectComponent,
+    TimeIntervalsContainerComponent,
+};
