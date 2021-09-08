@@ -9,6 +9,7 @@ describe('TimeIntervalsApiService', () => {
     let httpMock: HttpTestingController;
 
     const intervalDiff = 5 * 60 * 1000;
+    const requestURL = `/assets/time-interval-responses/${intervalDiff}-milliseconds.json`;
     const apiError = { error: 'Error: Unknown API Error', message: 'API Error' };
     const apiErrorResponseOptions = { status: 400, statusText: 'Bad Request' };
 
@@ -35,7 +36,7 @@ describe('TimeIntervalsApiService', () => {
             expect(actualResult).toBe(expectedResult);
         });
 
-        const testRequest = httpMock.expectOne(`/assets/time-interval-responses/${intervalDiff}-milliseconds.json`);
+        const testRequest = httpMock.expectOne(requestURL);
         expect(testRequest.request.method).toBe('GET');
         testRequest.flush(expectedResult);
     });
@@ -45,7 +46,7 @@ describe('TimeIntervalsApiService', () => {
             error: ({ error }) => expect(error).toEqual(apiError),
         });
 
-        const testRequest = httpMock.expectOne(`/assets/time-interval-responses/${intervalDiff}-milliseconds.json`);
+        const testRequest = httpMock.expectOne(requestURL);
         testRequest.flush(apiError, apiErrorResponseOptions);
     });
 });

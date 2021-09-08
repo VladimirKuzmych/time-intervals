@@ -1,7 +1,10 @@
 <app-time-interval-select></app-time-interval-select>
 
-<div>
-    <span *ngFor="let timeInterval of timeIntervals$ | async">
-        {{ timeInterval.time | date : 'HH:mm' }}
-    </span>
-</div>
+<table>
+    <tr *ngFor="let groupedTimeIntervals of timeIntervals$ | async | groupTimeIntervals | keyvalue">
+        <td>{{ groupedTimeIntervals.key | date }}</td>
+        <td *ngFor="let timeInterval of groupedTimeIntervals.value">
+            {{ timeInterval.time | date : 'HH:mm' }}
+        </td>
+    </tr>
+</table>
