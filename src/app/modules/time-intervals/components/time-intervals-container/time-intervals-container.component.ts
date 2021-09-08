@@ -1,4 +1,5 @@
-import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { TimeIntervalsApiService } from '../../services/time-intervals-api.service';
 
 @Component({
     selector: 'app-time-intervals-container',
@@ -6,12 +7,9 @@ import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
     styleUrls: ['./time-intervals-container.component.scss'],
     changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class TimeIntervalsContainerComponent implements OnInit {
+export class TimeIntervalsContainerComponent {
+    public timeIntervals$ = this.timeIntervalsApiService.getTimeIntervals({ intervalDiff: 60 * 60 * 1000 });
 
-    constructor() {
+    constructor(private timeIntervalsApiService: TimeIntervalsApiService) {
     }
-
-    ngOnInit(): void {
-    }
-
 }

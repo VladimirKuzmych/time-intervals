@@ -1,1 +1,7 @@
-<p>time-intervals-container works!</p>
+<app-time-interval-select></app-time-interval-select>
+
+<div>
+    <span *ngFor="let timeInterval of timeIntervals$ | async">
+        {{ timeInterval.time | date : 'HH:mm' }}
+    </span>
+</div>
