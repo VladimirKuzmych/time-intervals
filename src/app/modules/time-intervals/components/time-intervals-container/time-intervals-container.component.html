@@ -1,4 +1,4 @@
-<app-time-interval-select></app-time-interval-select>
+<app-time-interval-filter (filterChange)="applySearch($event)" (filterInit)="applySearch($event)"></app-time-interval-filter>
 
 <table>
     <tr *ngFor="let groupedTimeIntervals of timeIntervals$ | async | groupTimeIntervals | keyvalue">

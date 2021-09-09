@@ -16,7 +16,6 @@ import { AppComponent } from './app.component';
         BrowserAnimationsModule,
         HttpClientModule
     ],
-    providers: [],
     bootstrap: [AppComponent],
 })
 export class AppModule {

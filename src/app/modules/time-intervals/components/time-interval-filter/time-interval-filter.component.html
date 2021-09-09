@@ -1,0 +1,9 @@
+<mat-form-field appearance="outline">
+    <mat-label>Select time interval:</mat-label>
+
+    <mat-select [ngModel]="timeIntervalDefaultValue" (selectionChange)="onIntervalChange($event)">
+        <mat-option *ngFor="let intervalOption of timeIntervalOptions" [value]="intervalOption.value">
+            {{ intervalOption.label }}
+        </mat-option>
+    </mat-select>
+</mat-form-field>

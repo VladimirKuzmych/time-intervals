@@ -1,12 +1,12 @@
 import { TimeIntervalsContainerComponent } from './time-intervals-container/time-intervals-container.component';
-import { TimeIntervalSelectComponent } from './time-interval-select/time-interval-select.component';
+import { TimeIntervalFilterComponent } from './time-interval-filter/time-interval-filter.component';
 
 export const timeIntervalsComponents = [
     TimeIntervalsContainerComponent,
-    TimeIntervalSelectComponent,
+    TimeIntervalFilterComponent,
 ];
 
 export {
-    TimeIntervalSelectComponent,
     TimeIntervalsContainerComponent,
+    TimeIntervalFilterComponent,
 };

@@ -1,10 +1,14 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { of } from 'rxjs';
+import { first } from 'rxjs/operators';
 
-import { TimeIntervalsContainerComponent } from './time-intervals-container.component';
-import { TimeIntervalSelectComponent } from '../time-interval-select/time-interval-select.component';
 import { TimeIntervalsApiService } from '../../services/time-intervals-api.service';
 import { TimeIntervalSearchType } from '../../types';
+import { TimeIntervalsContainerComponent } from './time-intervals-container.component';
+import { TimeIntervalFilterComponent } from '../time-interval-filter/time-interval-filter.component';
+import { GroupTimeIntervalsPipe } from '../../pipes/group-time-intervals.pipe';
+import { SharedModule } from '../../../../shared/shared.module';
 
 describe('TimeIntervalsContainerComponent', () => {
     let component: TimeIntervalsContainerComponent;
@@ -12,7 +16,8 @@ describe('TimeIntervalsContainerComponent', () => {
 
     beforeEach(async () => {
         await TestBed.configureTestingModule({
-            declarations: [TimeIntervalsContainerComponent, TimeIntervalSelectComponent],
+            declarations: [TimeIntervalsContainerComponent, TimeIntervalFilterComponent, GroupTimeIntervalsPipe],
+            imports: [SharedModule, NoopAnimationsModule],
             providers: [
                 {
                     provide: TimeIntervalsApiService,
@@ -32,8 +37,14 @@ describe('TimeIntervalsContainerComponent', () => {
         expect(component).toBeTruthy();
     });
 
-    it('should set time intervals', async () => {
-        const timeIntervals = await component.timeIntervals$.toPromise();
-        expect(timeIntervals).toHaveLength(0);
+    it('should set time intervals', done => {
+        component.applySearch({ intervalDiff: 1e6 });
+
+        component.timeIntervals$.pipe(
+            first(),
+        ).subscribe(timeIntervals => {
+            expect(timeIntervals).toHaveLength(0);
+            done();
+        });
     });
 });
