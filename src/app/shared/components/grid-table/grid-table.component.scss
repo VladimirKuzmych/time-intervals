@@ -1,0 +1,10 @@
+:host {
+    display: block;
+    overflow-x: auto;
+}
+
+td.mat-cell, th.mat-header-cell {
+    padding: 4px 8px;
+    text-align: center;
+    white-space: nowrap;
+}

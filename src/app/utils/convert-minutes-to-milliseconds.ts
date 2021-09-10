@@ -1,3 +1,5 @@
+import { convertSecondsToMilliseconds } from './convert-seconds-to-milliseconds';
+
 export function convertMinutesToMilliseconds(minutes: number): number {
-    return minutes * 60 * 1000;
+    return convertSecondsToMilliseconds(minutes * 60);
 }

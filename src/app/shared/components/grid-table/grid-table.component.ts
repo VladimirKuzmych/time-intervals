@@ -1,4 +1,5 @@
-import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
+import { GridTableColumnConfigType } from '../../types';
 
 @Component({
     selector: 'app-grid-table',
@@ -6,10 +7,8 @@ import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
     styleUrls: ['./grid-table.component.scss'],
     changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class GridTableComponent implements OnInit {
-    constructor() {
-    }
-
-    ngOnInit(): void {
-    }
+export class GridTableComponent {
+    // it works slow with large amount of data, I will try to add cdk virtual scroll in the future
+    @Input() public columns: GridTableColumnConfigType[] = [];
+    @Input() public dataSource: unknown[] = [];
 }

@@ -1,42 +1,44 @@
 import { GroupTimeIntervalsPipe } from './group-time-intervals.pipe';
 import { TimeIntervalType } from '../types';
+import { DatePipe } from '@angular/common';
+import { convertMinutesToMilliseconds } from '../../../utils';
 
 describe('GroupTimeIntervalsPipe', () => {
     let pipe: GroupTimeIntervalsPipe;
+    const timezoneOffset = new Date().getTimezoneOffset();
+    const timezoneOffsetMilliseconds = convertMinutesToMilliseconds(timezoneOffset);
 
     beforeEach(() => {
-        pipe = new GroupTimeIntervalsPipe();
+        pipe = new GroupTimeIntervalsPipe(new DatePipe('en'));
     });
 
     it('should create an instance', () => {
         expect(pipe).toBeTruthy();
     });
 
-    it('should return empty object if input data is empty', () => {
-        expect(pipe.transform(null)).toStrictEqual({});
-        expect(pipe.transform([])).toStrictEqual({});
+    it('should return empty array if input data is empty', () => {
+        expect(pipe.transform(null)).toStrictEqual([]);
+        expect(pipe.transform([])).toStrictEqual([]);
     });
 
     it('should group time interval by date', () => {
-        const interval: TimeIntervalType = { time: 0, value: '' };
-        const expectedDateKey = '1970-0-1';
+        const interval: TimeIntervalType = { time: timezoneOffsetMilliseconds, value: '' };
         const result = pipe.transform([interval]);
 
-        expect(result).toHaveProperty(expectedDateKey);
-        expect(result[expectedDateKey]).toStrictEqual([interval]);
+        expect(result).toHaveLength(1);
+        expect(result[0]).toHaveProperty('00:00');
     });
 
     it('should group few time intervals by date', () => {
-        const todayDate = new Date();
-        const todayDateKey = `${todayDate.getFullYear()}-${todayDate.getMonth()}-${todayDate.getDate()}`;
+        const timestamp = new Date('1999-10-10').getTime() + timezoneOffsetMilliseconds;
         const intervals: TimeIntervalType[] = [
-            { time: new Date('1999-10-10').getTime(), value: '' },
-            { time: todayDate.getTime(), value: '' },
+            { time: timestamp, value: '' },
+            { time: timestamp + 1, value: '' },
             { time: Date.now(), value: '' },
         ];
         const result = pipe.transform(intervals);
 
-        expect(result).toHaveProperty(todayDateKey);
-        expect(Object.keys(result)).toHaveLength(2);
+        expect(result).toHaveLength(2);
+        expect(result[0]).toHaveProperty('00:00');
     });
 });

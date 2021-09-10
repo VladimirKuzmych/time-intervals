@@ -1,10 +1,9 @@
 <app-time-interval-filter (filterChange)="applySearch($event)" (filterInit)="applySearch($event)"></app-time-interval-filter>
 
-<table>
-    <tr *ngFor="let groupedTimeIntervals of timeIntervals$ | async | groupTimeIntervals | keyvalue">
-        <td>{{ groupedTimeIntervals.key | date }}</td>
-        <td *ngFor="let timeInterval of groupedTimeIntervals.value">
-            {{ timeInterval.time | date : 'HH:mm' }}
-        </td>
-    </tr>
-</table>
+<app-grid-table [columns]="(search$ | async)?.intervalDiff | timeIntervalColumns : columnTemplate"
+                [dataSource]="timeIntervals$ | async | groupTimeIntervals">
+</app-grid-table>
+
+<ng-template #columnTemplate let-interval let-key="key">
+    {{ interval[key]?.value }}
+</ng-template>

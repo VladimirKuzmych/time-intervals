@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { DatePipe } from '@angular/common';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
@@ -16,6 +17,7 @@ import { AppComponent } from './app.component';
         BrowserAnimationsModule,
         HttpClientModule
     ],
+    providers: [DatePipe],
     bootstrap: [AppComponent],
 })
 export class AppModule {

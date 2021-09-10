@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { GridTableComponent } from './grid-table.component';
+import { SharedModule } from '../../shared.module';
 
 describe('GridTableComponent', () => {
     let component: GridTableComponent;
@@ -8,7 +9,7 @@ describe('GridTableComponent', () => {
 
     beforeEach(async () => {
         await TestBed.configureTestingModule({
-            declarations: [GridTableComponent],
+            imports: [SharedModule],
         })
             .compileComponents();
     });

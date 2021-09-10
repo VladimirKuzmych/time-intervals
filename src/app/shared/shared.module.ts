@@ -1,17 +1,28 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { sharedComponents } from './components';
 import { FormsModule } from '@angular/forms';
 import { MatSelectModule } from '@angular/material/select';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatTableModule } from '@angular/material/table';
+import { sharedComponents } from './components';
+import { sharedPipes } from './pipes';
 
 
 @NgModule({
-    declarations: [...sharedComponents],
+    declarations: [...sharedComponents, ...sharedPipes],
     imports: [
         CommonModule,
+        MatTableModule,
     ],
-    exports: [...sharedComponents, CommonModule, FormsModule, MatSelectModule, MatFormFieldModule],
+    exports: [
+        ...sharedComponents,
+        ...sharedPipes,
+        CommonModule,
+        FormsModule,
+        MatSelectModule,
+        MatFormFieldModule,
+        MatTableModule,
+    ],
 })
 export class SharedModule {
 }

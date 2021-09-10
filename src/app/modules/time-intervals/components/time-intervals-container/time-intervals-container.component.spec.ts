@@ -8,7 +8,9 @@ import { TimeIntervalSearchType } from '../../types';
 import { TimeIntervalsContainerComponent } from './time-intervals-container.component';
 import { TimeIntervalFilterComponent } from '../time-interval-filter/time-interval-filter.component';
 import { GroupTimeIntervalsPipe } from '../../pipes/group-time-intervals.pipe';
+import { TimeIntervalColumnsPipe } from '../../pipes/time-interval-columns.pipe';
 import { SharedModule } from '../../../../shared/shared.module';
+import { DatePipe } from '@angular/common';
 
 describe('TimeIntervalsContainerComponent', () => {
     let component: TimeIntervalsContainerComponent;
@@ -16,12 +18,14 @@ describe('TimeIntervalsContainerComponent', () => {
 
     beforeEach(async () => {
         await TestBed.configureTestingModule({
-            declarations: [TimeIntervalsContainerComponent, TimeIntervalFilterComponent, GroupTimeIntervalsPipe],
+            declarations: [TimeIntervalsContainerComponent, TimeIntervalFilterComponent, GroupTimeIntervalsPipe, TimeIntervalColumnsPipe],
             imports: [SharedModule, NoopAnimationsModule],
             providers: [
                 {
                     provide: TimeIntervalsApiService,
-                    useValue: { getTimeIntervals: jest.fn((_: TimeIntervalSearchType) => of([])) } },
+                    useValue: { getTimeIntervals: jest.fn((_: TimeIntervalSearchType) => of([])) },
+                },
+                DatePipe,
             ],
         })
             .compileComponents();
