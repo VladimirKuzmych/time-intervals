@@ -1,6 +1,7 @@
 import { TimeIntervalSearchType, TimeIntervalType } from "../types";
 
-export function generateTimeIntervals({ intervalDiff }: TimeIntervalSearchType): TimeIntervalType[] {
+// Just for JSON generation purpose
+function generateTimeIntervals({ intervalDiff }: TimeIntervalSearchType): TimeIntervalType[] {
     const startTimestamp = getStartTimestamp();
     const endTimestamp = getEndTimestamp(startTimestamp);
     const timestampDiff = endTimestamp - startTimestamp;

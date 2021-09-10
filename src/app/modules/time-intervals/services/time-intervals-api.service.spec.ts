@@ -1,7 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 import { HttpClientTestingModule, HttpTestingController } from '@angular/common/http/testing';
 import { TimeIntervalsApiService } from './time-intervals-api.service';
-import { generateTimeIntervals } from '../utils';
 import { TimeIntervalType } from '../types';
 
 describe('TimeIntervalsApiService', () => {
@@ -30,7 +29,7 @@ describe('TimeIntervalsApiService', () => {
     });
 
     it('should return generated time intervals', () => {
-        const expectedResult = generateTimeIntervals({ intervalDiff });
+        const expectedResult: TimeIntervalType[] = [];
 
         service.getTimeIntervals({ intervalDiff }).subscribe((actualResult: TimeIntervalType[]) => {
             expect(actualResult).toBe(expectedResult);

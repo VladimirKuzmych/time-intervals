@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { MatSelectChange } from '@angular/material/select';
-import { TIME_INTERVAL_DEFAULT_OPTION, TIME_INTERVAL_OPTIONS } from '../../constants';
 import { TimeIntervalSearchType } from '../../types';
+import { TimePeriodConverterService } from '../../../../shared';
 
 @Component({
     selector: 'app-time-interval-filter',
@@ -10,11 +10,18 @@ import { TimeIntervalSearchType } from '../../types';
     changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class TimeIntervalFilterComponent implements OnInit {
-    public timeIntervalOptions = TIME_INTERVAL_OPTIONS;
-    public timeIntervalDefaultValue = TIME_INTERVAL_DEFAULT_OPTION.value;
+    public timeIntervalOptions = [
+        { value: this.timePeriodConverterService.convertMinutesToMilliseconds(5), label: '5 minutes' },
+        { value: this.timePeriodConverterService.convertMinutesToMilliseconds(30), label: '30 minutes' },
+        { value: this.timePeriodConverterService.convertMinutesToMilliseconds(60), label: '1 hour' },
+    ];
+    public timeIntervalDefaultValue = this.timeIntervalOptions[0].value;
 
     @Output() public filterChange = new EventEmitter<TimeIntervalSearchType>();
     @Output() public filterInit = new EventEmitter<TimeIntervalSearchType>();
+
+    constructor(private timePeriodConverterService: TimePeriodConverterService) {
+    }
 
     ngOnInit() {
         this.filterInit.emit({ intervalDiff: this.timeIntervalDefaultValue });

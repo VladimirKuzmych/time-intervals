@@ -1,12 +1,11 @@
+import { DatePipe } from '@angular/common';
 import { GroupTimeIntervalsPipe } from './group-time-intervals.pipe';
 import { TimeIntervalType } from '../types';
-import { DatePipe } from '@angular/common';
-import { convertMinutesToMilliseconds } from '../../../utils';
 
 describe('GroupTimeIntervalsPipe', () => {
     let pipe: GroupTimeIntervalsPipe;
     const timezoneOffset = new Date().getTimezoneOffset();
-    const timezoneOffsetMilliseconds = convertMinutesToMilliseconds(timezoneOffset);
+    const timezoneOffsetMilliseconds = timezoneOffset * 60 * 1000;
 
     beforeEach(() => {
         pipe = new GroupTimeIntervalsPipe(new DatePipe('en'));

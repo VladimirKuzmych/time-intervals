@@ -1,11 +1,12 @@
 import { DatePipe } from '@angular/common';
 import { TimeIntervalColumnsPipe } from './time-interval-columns.pipe';
+import { TimePeriodConverterService } from '../../../shared';
 
 describe('TimeIntervalColumnsPipe', () => {
     let pipe: TimeIntervalColumnsPipe
 
     beforeEach(() => {
-        pipe = new TimeIntervalColumnsPipe(new DatePipe('en'));
+        pipe = new TimeIntervalColumnsPipe(new DatePipe('en'), new TimePeriodConverterService());
     });
 
     it('create an instance', () => {

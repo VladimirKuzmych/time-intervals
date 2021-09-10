@@ -1,13 +1,12 @@
 import { Pipe, PipeTransform, TemplateRef } from '@angular/core';
 import { DatePipe } from '@angular/common';
-import { convertDaysToMilliseconds, convertMinutesToMilliseconds } from '../../../utils';
-import { GridTableColumnConfigType } from '../../../shared/types';
+import { GridTableColumnConfigType, TimePeriodConverterService } from '../../../shared';
 
 @Pipe({
     name: 'timeIntervalColumns',
 })
 export class TimeIntervalColumnsPipe implements PipeTransform {
-    constructor(private datePipe: DatePipe) {
+    constructor(private datePipe: DatePipe, private timePeriodConverterService: TimePeriodConverterService) {
     }
 
     transform(intervalDiff: number | undefined, template?: TemplateRef<any>): GridTableColumnConfigType[] {
@@ -15,9 +14,9 @@ export class TimeIntervalColumnsPipe implements PipeTransform {
             return [];
         }
 
-        const intervalCount = convertDaysToMilliseconds(1) / intervalDiff;
+        const intervalCount = this.timePeriodConverterService.convertDaysToMilliseconds(1) / intervalDiff;
         const timezoneOffsetMinutes = new Date().getTimezoneOffset();
-        const timezoneOffsetMilliseconds = convertMinutesToMilliseconds(timezoneOffsetMinutes);
+        const timezoneOffsetMilliseconds = this.timePeriodConverterService.convertMinutesToMilliseconds(timezoneOffsetMinutes);
 
         return new Array(intervalCount)
             .fill(0)
