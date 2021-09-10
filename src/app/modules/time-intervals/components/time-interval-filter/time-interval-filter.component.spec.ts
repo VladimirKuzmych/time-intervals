@@ -1,11 +1,11 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSelectChange } from '@angular/material/select';
+import { first } from 'rxjs/operators';
 
 import { TimeIntervalFilterComponent } from './time-interval-filter.component';
-import { SharedModule } from '../../../../shared/shared.module';
+import { SharedModule } from '../../../../shared';
 import { TimeIntervalSearchType } from '../../types';
-import { first } from 'rxjs/operators';
-import { MatSelectChange } from '@angular/material/select';
 
 describe('TimeIntervalFilterComponent', () => {
     let component: TimeIntervalFilterComponent;
@@ -33,7 +33,7 @@ describe('TimeIntervalFilterComponent', () => {
         component.filterInit.pipe(
             first(),
         ).subscribe((search: TimeIntervalSearchType) => {
-            // expect(search.intervalDiff).toBe(TIME_INTERVAL_DEFAULT_OPTION.value);
+            expect(search.intervalDiff).toBeTruthy();
             done();
         });
 

@@ -21,12 +21,8 @@ describe('TimePeriodConverterService', () => {
         expect(service.convertDaysToMilliseconds(0)).toBe(0);
     });
 
-    it('should convert minutes to milliseconds correctly', () => {
-        const spy = jest.spyOn(service, 'convertSecondsToMilliseconds');
-        expect(service.convertMinutesToMilliseconds(1.5)).toBe(90 * 1000);
-        expect(spy).toHaveBeenCalled();
-
-        spy.mockRestore();
+    it('should convert days to milliseconds correctly', () => {
+        expect(service.convertDaysToMilliseconds(1.5)).toBe(1.5 * 24 * 60 * 60 * 1000);
     });
 
     it('should call inner methods for converting days to milliseconds', () => {

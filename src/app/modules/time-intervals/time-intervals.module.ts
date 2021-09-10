@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
-import { timeIntervalsComponents } from './components';
 import { RouterModule } from '@angular/router';
-import { SharedModule } from '../../shared/shared.module';
+import { SharedModule } from '../../shared';
 import { timeIntervalRoutes } from './time-intervals.routes';
 import { timeIntervalsPipes } from './pipes';
+import { timeIntervalsComponents } from './components';
 
 
 @NgModule({
