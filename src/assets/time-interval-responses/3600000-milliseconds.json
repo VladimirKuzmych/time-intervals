@@ -1,0 +1,2882 @@
+[
+    {
+        "time": 1631048400000,
+        "value": "Detail 1"
+    },
+    {
+        "time": 1631052000000,
+        "value": "Detail 2"
+    },
+    {
+        "time": 1631055600000,
+        "value": "Detail 3"
+    },
+    {
+        "time": 1631059200000,
+        "value": "Detail 4"
+    },
+    {
+        "time": 1631062800000,
+        "value": "Detail 5"
+    },
+    {
+        "time": 1631066400000,
+        "value": "Detail 6"
+    },
+    {
+        "time": 1631070000000,
+        "value": "Detail 7"
+    },
+    {
+        "time": 1631073600000,
+        "value": "Detail 8"
+    },
+    {
+        "time": 1631077200000,
+        "value": "Detail 9"
+    },
+    {
+        "time": 1631080800000,
+        "value": "Detail 10"
+    },
+    {
+        "time": 1631084400000,
+        "value": "Detail 11"
+    },
+    {
+        "time": 1631088000000,
+        "value": "Detail 12"
+    },
+    {
+        "time": 1631091600000,
+        "value": "Detail 13"
+    },
+    {
+        "time": 1631095200000,
+        "value": "Detail 14"
+    },
+    {
+        "time": 1631098800000,
+        "value": "Detail 15"
+    },
+    {
+        "time": 1631102400000,
+        "value": "Detail 16"
+    },
+    {
+        "time": 1631106000000,
+        "value": "Detail 17"
+    },
+    {
+        "time": 1631109600000,
+        "value": "Detail 18"
+    },
+    {
+        "time": 1631113200000,
+        "value": "Detail 19"
+    },
+    {
+        "time": 1631116800000,
+        "value": "Detail 20"
+    },
+    {
+        "time": 1631120400000,
+        "value": "Detail 21"
+    },
+    {
+        "time": 1631124000000,
+        "value": "Detail 22"
+    },
+    {
+        "time": 1631127600000,
+        "value": "Detail 23"
+    },
+    {
+        "time": 1631131200000,
+        "value": "Detail 24"
+    },
+    {
+        "time": 1631134800000,
+        "value": "Detail 25"
+    },
+    {
+        "time": 1631138400000,
+        "value": "Detail 26"
+    },
+    {
+        "time": 1631142000000,
+        "value": "Detail 27"
+    },
+    {
+        "time": 1631145600000,
+        "value": "Detail 28"
+    },
+    {
+        "time": 1631149200000,
+        "value": "Detail 29"
+    },
+    {
+        "time": 1631152800000,
+        "value": "Detail 30"
+    },
+    {
+        "time": 1631156400000,
+        "value": "Detail 31"
+    },
+    {
+        "time": 1631160000000,
+        "value": "Detail 32"
+    },
+    {
+        "time": 1631163600000,
+        "value": "Detail 33"
+    },
+    {
+        "time": 1631167200000,
+        "value": "Detail 34"
+    },
+    {
+        "time": 1631170800000,
+        "value": "Detail 35"
+    },
+    {
+        "time": 1631174400000,
+        "value": "Detail 36"
+    },
+    {
+        "time": 1631178000000,
+        "value": "Detail 37"
+    },
+    {
+        "time": 1631181600000,
+        "value": "Detail 38"
+    },
+    {
+        "time": 1631185200000,
+        "value": "Detail 39"
+    },
+    {
+        "time": 1631188800000,
+        "value": "Detail 40"
+    },
+    {
+        "time": 1631192400000,
+        "value": "Detail 41"
+    },
+    {
+        "time": 1631196000000,
+        "value": "Detail 42"
+    },
+    {
+        "time": 1631199600000,
+        "value": "Detail 43"
+    },
+    {
+        "time": 1631203200000,
+        "value": "Detail 44"
+    },
+    {
+        "time": 1631206800000,
+        "value": "Detail 45"
+    },
+    {
+        "time": 1631210400000,
+        "value": "Detail 46"
+    },
+    {
+        "time": 1631214000000,
+        "value": "Detail 47"
+    },
+    {
+        "time": 1631217600000,
+        "value": "Detail 48"
+    },
+    {
+        "time": 1631221200000,
+        "value": "Detail 49"
+    },
+    {
+        "time": 1631224800000,
+        "value": "Detail 50"
+    },
+    {
+        "time": 1631228400000,
+        "value": "Detail 51"
+    },
+    {
+        "time": 1631232000000,
+        "value": "Detail 52"
+    },
+    {
+        "time": 1631235600000,
+        "value": "Detail 53"
+    },
+    {
+        "time": 1631239200000,
+        "value": "Detail 54"
+    },
+    {
+        "time": 1631242800000,
+        "value": "Detail 55"
+    },
+    {
+        "time": 1631246400000,
+        "value": "Detail 56"
+    },
+    {
+        "time": 1631250000000,
+        "value": "Detail 57"
+    },
+    {
+        "time": 1631253600000,
+        "value": "Detail 58"
+    },
+    {
+        "time": 1631257200000,
+        "value": "Detail 59"
+    },
+    {
+        "time": 1631260800000,
+        "value": "Detail 60"
+    },
+    {
+        "time": 1631264400000,
+        "value": "Detail 61"
+    },
+    {
+        "time": 1631268000000,
+        "value": "Detail 62"
+    },
+    {
+        "time": 1631271600000,
+        "value": "Detail 63"
+    },
+    {
+        "time": 1631275200000,
+        "value": "Detail 64"
+    },
+    {
+        "time": 1631278800000,
+        "value": "Detail 65"
+    },
+    {
+        "time": 1631282400000,
+        "value": "Detail 66"
+    },
+    {
+        "time": 1631286000000,
+        "value": "Detail 67"
+    },
+    {
+        "time": 1631289600000,
+        "value": "Detail 68"
+    },
+    {
+        "time": 1631293200000,
+        "value": "Detail 69"
+    },
+    {
+        "time": 1631296800000,
+        "value": "Detail 70"
+    },
+    {
+        "time": 1631300400000,
+        "value": "Detail 71"
+    },
+    {
+        "time": 1631304000000,
+        "value": "Detail 72"
+    },
+    {
+        "time": 1631307600000,
+        "value": "Detail 73"
+    },
+    {
+        "time": 1631311200000,
+        "value": "Detail 74"
+    },
+    {
+        "time": 1631314800000,
+        "value": "Detail 75"
+    },
+    {
+        "time": 1631318400000,
+        "value": "Detail 76"
+    },
+    {
+        "time": 1631322000000,
+        "value": "Detail 77"
+    },
+    {
+        "time": 1631325600000,
+        "value": "Detail 78"
+    },
+    {
+        "time": 1631329200000,
+        "value": "Detail 79"
+    },
+    {
+        "time": 1631332800000,
+        "value": "Detail 80"
+    },
+    {
+        "time": 1631336400000,
+        "value": "Detail 81"
+    },
+    {
+        "time": 1631340000000,
+        "value": "Detail 82"
+    },
+    {
+        "time": 1631343600000,
+        "value": "Detail 83"
+    },
+    {
+        "time": 1631347200000,
+        "value": "Detail 84"
+    },
+    {
+        "time": 1631350800000,
+        "value": "Detail 85"
+    },
+    {
+        "time": 1631354400000,
+        "value": "Detail 86"
+    },
+    {
+        "time": 1631358000000,
+        "value": "Detail 87"
+    },
+    {
+        "time": 1631361600000,
+        "value": "Detail 88"
+    },
+    {
+        "time": 1631365200000,
+        "value": "Detail 89"
+    },
+    {
+        "time": 1631368800000,
+        "value": "Detail 90"
+    },
+    {
+        "time": 1631372400000,
+        "value": "Detail 91"
+    },
+    {
+        "time": 1631376000000,
+        "value": "Detail 92"
+    },
+    {
+        "time": 1631379600000,
+        "value": "Detail 93"
+    },
+    {
+        "time": 1631383200000,
+        "value": "Detail 94"
+    },
+    {
+        "time": 1631386800000,
+        "value": "Detail 95"
+    },
+    {
+        "time": 1631390400000,
+        "value": "Detail 96"
+    },
+    {
+        "time": 1631394000000,
+        "value": "Detail 97"
+    },
+    {
+        "time": 1631397600000,
+        "value": "Detail 98"
+    },
+    {
+        "time": 1631401200000,
+        "value": "Detail 99"
+    },
+    {
+        "time": 1631404800000,
+        "value": "Detail 100"
+    },
+    {
+        "time": 1631408400000,
+        "value": "Detail 101"
+    },
+    {
+        "time": 1631412000000,
+        "value": "Detail 102"
+    },
+    {
+        "time": 1631415600000,
+        "value": "Detail 103"
+    },
+    {
+        "time": 1631419200000,
+        "value": "Detail 104"
+    },
+    {
+        "time": 1631422800000,
+        "value": "Detail 105"
+    },
+    {
+        "time": 1631426400000,
+        "value": "Detail 106"
+    },
+    {
+        "time": 1631430000000,
+        "value": "Detail 107"
+    },
+    {
+        "time": 1631433600000,
+        "value": "Detail 108"
+    },
+    {
+        "time": 1631437200000,
+        "value": "Detail 109"
+    },
+    {
+        "time": 1631440800000,
+        "value": "Detail 110"
+    },
+    {
+        "time": 1631444400000,
+        "value": "Detail 111"
+    },
+    {
+        "time": 1631448000000,
+        "value": "Detail 112"
+    },
+    {
+        "time": 1631451600000,
+        "value": "Detail 113"
+    },
+    {
+        "time": 1631455200000,
+        "value": "Detail 114"
+    },
+    {
+        "time": 1631458800000,
+        "value": "Detail 115"
+    },
+    {
+        "time": 1631462400000,
+        "value": "Detail 116"
+    },
+    {
+        "time": 1631466000000,
+        "value": "Detail 117"
+    },
+    {
+        "time": 1631469600000,
+        "value": "Detail 118"
+    },
+    {
+        "time": 1631473200000,
+        "value": "Detail 119"
+    },
+    {
+        "time": 1631476800000,
+        "value": "Detail 120"
+    },
+    {
+        "time": 1631480400000,
+        "value": "Detail 121"
+    },
+    {
+        "time": 1631484000000,
+        "value": "Detail 122"
+    },
+    {
+        "time": 1631487600000,
+        "value": "Detail 123"
+    },
+    {
+        "time": 1631491200000,
+        "value": "Detail 124"
+    },
+    {
+        "time": 1631494800000,
+        "value": "Detail 125"
+    },
+    {
+        "time": 1631498400000,
+        "value": "Detail 126"
+    },
+    {
+        "time": 1631502000000,
+        "value": "Detail 127"
+    },
+    {
+        "time": 1631505600000,
+        "value": "Detail 128"
+    },
+    {
+        "time": 1631509200000,
+        "value": "Detail 129"
+    },
+    {
+        "time": 1631512800000,
+        "value": "Detail 130"
+    },
+    {
+        "time": 1631516400000,
+        "value": "Detail 131"
+    },
+    {
+        "time": 1631520000000,
+        "value": "Detail 132"
+    },
+    {
+        "time": 1631523600000,
+        "value": "Detail 133"
+    },
+    {
+        "time": 1631527200000,
+        "value": "Detail 134"
+    },
+    {
+        "time": 1631530800000,
+        "value": "Detail 135"
+    },
+    {
+        "time": 1631534400000,
+        "value": "Detail 136"
+    },
+    {
+        "time": 1631538000000,
+        "value": "Detail 137"
+    },
+    {
+        "time": 1631541600000,
+        "value": "Detail 138"
+    },
+    {
+        "time": 1631545200000,
+        "value": "Detail 139"
+    },
+    {
+        "time": 1631548800000,
+        "value": "Detail 140"
+    },
+    {
+        "time": 1631552400000,
+        "value": "Detail 141"
+    },
+    {
+        "time": 1631556000000,
+        "value": "Detail 142"
+    },
+    {
+        "time": 1631559600000,
+        "value": "Detail 143"
+    },
+    {
+        "time": 1631563200000,
+        "value": "Detail 144"
+    },
+    {
+        "time": 1631566800000,
+        "value": "Detail 145"
+    },
+    {
+        "time": 1631570400000,
+        "value": "Detail 146"
+    },
+    {
+        "time": 1631574000000,
+        "value": "Detail 147"
+    },
+    {
+        "time": 1631577600000,
+        "value": "Detail 148"
+    },
+    {
+        "time": 1631581200000,
+        "value": "Detail 149"
+    },
+    {
+        "time": 1631584800000,
+        "value": "Detail 150"
+    },
+    {
+        "time": 1631588400000,
+        "value": "Detail 151"
+    },
+    {
+        "time": 1631592000000,
+        "value": "Detail 152"
+    },
+    {
+        "time": 1631595600000,
+        "value": "Detail 153"
+    },
+    {
+        "time": 1631599200000,
+        "value": "Detail 154"
+    },
+    {
+        "time": 1631602800000,
+        "value": "Detail 155"
+    },
+    {
+        "time": 1631606400000,
+        "value": "Detail 156"
+    },
+    {
+        "time": 1631610000000,
+        "value": "Detail 157"
+    },
+    {
+        "time": 1631613600000,
+        "value": "Detail 158"
+    },
+    {
+        "time": 1631617200000,
+        "value": "Detail 159"
+    },
+    {
+        "time": 1631620800000,
+        "value": "Detail 160"
+    },
+    {
+        "time": 1631624400000,
+        "value": "Detail 161"
+    },
+    {
+        "time": 1631628000000,
+        "value": "Detail 162"
+    },
+    {
+        "time": 1631631600000,
+        "value": "Detail 163"
+    },
+    {
+        "time": 1631635200000,
+        "value": "Detail 164"
+    },
+    {
+        "time": 1631638800000,
+        "value": "Detail 165"
+    },
+    {
+        "time": 1631642400000,
+        "value": "Detail 166"
+    },
+    {
+        "time": 1631646000000,
+        "value": "Detail 167"
+    },
+    {
+        "time": 1631649600000,
+        "value": "Detail 168"
+    },
+    {
+        "time": 1631653200000,
+        "value": "Detail 169"
+    },
+    {
+        "time": 1631656800000,
+        "value": "Detail 170"
+    },
+    {
+        "time": 1631660400000,
+        "value": "Detail 171"
+    },
+    {
+        "time": 1631664000000,
+        "value": "Detail 172"
+    },
+    {
+        "time": 1631667600000,
+        "value": "Detail 173"
+    },
+    {
+        "time": 1631671200000,
+        "value": "Detail 174"
+    },
+    {
+        "time": 1631674800000,
+        "value": "Detail 175"
+    },
+    {
+        "time": 1631678400000,
+        "value": "Detail 176"
+    },
+    {
+        "time": 1631682000000,
+        "value": "Detail 177"
+    },
+    {
+        "time": 1631685600000,
+        "value": "Detail 178"
+    },
+    {
+        "time": 1631689200000,
+        "value": "Detail 179"
+    },
+    {
+        "time": 1631692800000,
+        "value": "Detail 180"
+    },
+    {
+        "time": 1631696400000,
+        "value": "Detail 181"
+    },
+    {
+        "time": 1631700000000,
+        "value": "Detail 182"
+    },
+    {
+        "time": 1631703600000,
+        "value": "Detail 183"
+    },
+    {
+        "time": 1631707200000,
+        "value": "Detail 184"
+    },
+    {
+        "time": 1631710800000,
+        "value": "Detail 185"
+    },
+    {
+        "time": 1631714400000,
+        "value": "Detail 186"
+    },
+    {
+        "time": 1631718000000,
+        "value": "Detail 187"
+    },
+    {
+        "time": 1631721600000,
+        "value": "Detail 188"
+    },
+    {
+        "time": 1631725200000,
+        "value": "Detail 189"
+    },
+    {
+        "time": 1631728800000,
+        "value": "Detail 190"
+    },
+    {
+        "time": 1631732400000,
+        "value": "Detail 191"
+    },
+    {
+        "time": 1631736000000,
+        "value": "Detail 192"
+    },
+    {
+        "time": 1631739600000,
+        "value": "Detail 193"
+    },
+    {
+        "time": 1631743200000,
+        "value": "Detail 194"
+    },
+    {
+        "time": 1631746800000,
+        "value": "Detail 195"
+    },
+    {
+        "time": 1631750400000,
+        "value": "Detail 196"
+    },
+    {
+        "time": 1631754000000,
+        "value": "Detail 197"
+    },
+    {
+        "time": 1631757600000,
+        "value": "Detail 198"
+    },
+    {
+        "time": 1631761200000,
+        "value": "Detail 199"
+    },
+    {
+        "time": 1631764800000,
+        "value": "Detail 200"
+    },
+    {
+        "time": 1631768400000,
+        "value": "Detail 201"
+    },
+    {
+        "time": 1631772000000,
+        "value": "Detail 202"
+    },
+    {
+        "time": 1631775600000,
+        "value": "Detail 203"
+    },
+    {
+        "time": 1631779200000,
+        "value": "Detail 204"
+    },
+    {
+        "time": 1631782800000,
+        "value": "Detail 205"
+    },
+    {
+        "time": 1631786400000,
+        "value": "Detail 206"
+    },
+    {
+        "time": 1631790000000,
+        "value": "Detail 207"
+    },
+    {
+        "time": 1631793600000,
+        "value": "Detail 208"
+    },
+    {
+        "time": 1631797200000,
+        "value": "Detail 209"
+    },
+    {
+        "time": 1631800800000,
+        "value": "Detail 210"
+    },
+    {
+        "time": 1631804400000,
+        "value": "Detail 211"
+    },
+    {
+        "time": 1631808000000,
+        "value": "Detail 212"
+    },
+    {
+        "time": 1631811600000,
+        "value": "Detail 213"
+    },
+    {
+        "time": 1631815200000,
+        "value": "Detail 214"
+    },
+    {
+        "time": 1631818800000,
+        "value": "Detail 215"
+    },
+    {
+        "time": 1631822400000,
+        "value": "Detail 216"
+    },
+    {
+        "time": 1631826000000,
+        "value": "Detail 217"
+    },
+    {
+        "time": 1631829600000,
+        "value": "Detail 218"
+    },
+    {
+        "time": 1631833200000,
+        "value": "Detail 219"
+    },
+    {
+        "time": 1631836800000,
+        "value": "Detail 220"
+    },
+    {
+        "time": 1631840400000,
+        "value": "Detail 221"
+    },
+    {
+        "time": 1631844000000,
+        "value": "Detail 222"
+    },
+    {
+        "time": 1631847600000,
+        "value": "Detail 223"
+    },
+    {
+        "time": 1631851200000,
+        "value": "Detail 224"
+    },
+    {
+        "time": 1631854800000,
+        "value": "Detail 225"
+    },
+    {
+        "time": 1631858400000,
+        "value": "Detail 226"
+    },
+    {
+        "time": 1631862000000,
+        "value": "Detail 227"
+    },
+    {
+        "time": 1631865600000,
+        "value": "Detail 228"
+    },
+    {
+        "time": 1631869200000,
+        "value": "Detail 229"
+    },
+    {
+        "time": 1631872800000,
+        "value": "Detail 230"
+    },
+    {
+        "time": 1631876400000,
+        "value": "Detail 231"
+    },
+    {
+        "time": 1631880000000,
+        "value": "Detail 232"
+    },
+    {
+        "time": 1631883600000,
+        "value": "Detail 233"
+    },
+    {
+        "time": 1631887200000,
+        "value": "Detail 234"
+    },
+    {
+        "time": 1631890800000,
+        "value": "Detail 235"
+    },
+    {
+        "time": 1631894400000,
+        "value": "Detail 236"
+    },
+    {
+        "time": 1631898000000,
+        "value": "Detail 237"
+    },
+    {
+        "time": 1631901600000,
+        "value": "Detail 238"
+    },
+    {
+        "time": 1631905200000,
+        "value": "Detail 239"
+    },
+    {
+        "time": 1631908800000,
+        "value": "Detail 240"
+    },
+    {
+        "time": 1631912400000,
+        "value": "Detail 241"
+    },
+    {
+        "time": 1631916000000,
+        "value": "Detail 242"
+    },
+    {
+        "time": 1631919600000,
+        "value": "Detail 243"
+    },
+    {
+        "time": 1631923200000,
+        "value": "Detail 244"
+    },
+    {
+        "time": 1631926800000,
+        "value": "Detail 245"
+    },
+    {
+        "time": 1631930400000,
+        "value": "Detail 246"
+    },
+    {
+        "time": 1631934000000,
+        "value": "Detail 247"
+    },
+    {
+        "time": 1631937600000,
+        "value": "Detail 248"
+    },
+    {
+        "time": 1631941200000,
+        "value": "Detail 249"
+    },
+    {
+        "time": 1631944800000,
+        "value": "Detail 250"
+    },
+    {
+        "time": 1631948400000,
+        "value": "Detail 251"
+    },
+    {
+        "time": 1631952000000,
+        "value": "Detail 252"
+    },
+    {
+        "time": 1631955600000,
+        "value": "Detail 253"
+    },
+    {
+        "time": 1631959200000,
+        "value": "Detail 254"
+    },
+    {
+        "time": 1631962800000,
+        "value": "Detail 255"
+    },
+    {
+        "time": 1631966400000,
+        "value": "Detail 256"
+    },
+    {
+        "time": 1631970000000,
+        "value": "Detail 257"
+    },
+    {
+        "time": 1631973600000,
+        "value": "Detail 258"
+    },
+    {
+        "time": 1631977200000,
+        "value": "Detail 259"
+    },
+    {
+        "time": 1631980800000,
+        "value": "Detail 260"
+    },
+    {
+        "time": 1631984400000,
+        "value": "Detail 261"
+    },
+    {
+        "time": 1631988000000,
+        "value": "Detail 262"
+    },
+    {
+        "time": 1631991600000,
+        "value": "Detail 263"
+    },
+    {
+        "time": 1631995200000,
+        "value": "Detail 264"
+    },
+    {
+        "time": 1631998800000,
+        "value": "Detail 265"
+    },
+    {
+        "time": 1632002400000,
+        "value": "Detail 266"
+    },
+    {
+        "time": 1632006000000,
+        "value": "Detail 267"
+    },
+    {
+        "time": 1632009600000,
+        "value": "Detail 268"
+    },
+    {
+        "time": 1632013200000,
+        "value": "Detail 269"
+    },
+    {
+        "time": 1632016800000,
+        "value": "Detail 270"
+    },
+    {
+        "time": 1632020400000,
+        "value": "Detail 271"
+    },
+    {
+        "time": 1632024000000,
+        "value": "Detail 272"
+    },
+    {
+        "time": 1632027600000,
+        "value": "Detail 273"
+    },
+    {
+        "time": 1632031200000,
+        "value": "Detail 274"
+    },
+    {
+        "time": 1632034800000,
+        "value": "Detail 275"
+    },
+    {
+        "time": 1632038400000,
+        "value": "Detail 276"
+    },
+    {
+        "time": 1632042000000,
+        "value": "Detail 277"
+    },
+    {
+        "time": 1632045600000,
+        "value": "Detail 278"
+    },
+    {
+        "time": 1632049200000,
+        "value": "Detail 279"
+    },
+    {
+        "time": 1632052800000,
+        "value": "Detail 280"
+    },
+    {
+        "time": 1632056400000,
+        "value": "Detail 281"
+    },
+    {
+        "time": 1632060000000,
+        "value": "Detail 282"
+    },
+    {
+        "time": 1632063600000,
+        "value": "Detail 283"
+    },
+    {
+        "time": 1632067200000,
+        "value": "Detail 284"
+    },
+    {
+        "time": 1632070800000,
+        "value": "Detail 285"
+    },
+    {
+        "time": 1632074400000,
+        "value": "Detail 286"
+    },
+    {
+        "time": 1632078000000,
+        "value": "Detail 287"
+    },
+    {
+        "time": 1632081600000,
+        "value": "Detail 288"
+    },
+    {
+        "time": 1632085200000,
+        "value": "Detail 289"
+    },
+    {
+        "time": 1632088800000,
+        "value": "Detail 290"
+    },
+    {
+        "time": 1632092400000,
+        "value": "Detail 291"
+    },
+    {
+        "time": 1632096000000,
+        "value": "Detail 292"
+    },
+    {
+        "time": 1632099600000,
+        "value": "Detail 293"
+    },
+    {
+        "time": 1632103200000,
+        "value": "Detail 294"
+    },
+    {
+        "time": 1632106800000,
+        "value": "Detail 295"
+    },
+    {
+        "time": 1632110400000,
+        "value": "Detail 296"
+    },
+    {
+        "time": 1632114000000,
+        "value": "Detail 297"
+    },
+    {
+        "time": 1632117600000,
+        "value": "Detail 298"
+    },
+    {
+        "time": 1632121200000,
+        "value": "Detail 299"
+    },
+    {
+        "time": 1632124800000,
+        "value": "Detail 300"
+    },
+    {
+        "time": 1632128400000,
+        "value": "Detail 301"
+    },
+    {
+        "time": 1632132000000,
+        "value": "Detail 302"
+    },
+    {
+        "time": 1632135600000,
+        "value": "Detail 303"
+    },
+    {
+        "time": 1632139200000,
+        "value": "Detail 304"
+    },
+    {
+        "time": 1632142800000,
+        "value": "Detail 305"
+    },
+    {
+        "time": 1632146400000,
+        "value": "Detail 306"
+    },
+    {
+        "time": 1632150000000,
+        "value": "Detail 307"
+    },
+    {
+        "time": 1632153600000,
+        "value": "Detail 308"
+    },
+    {
+        "time": 1632157200000,
+        "value": "Detail 309"
+    },
+    {
+        "time": 1632160800000,
+        "value": "Detail 310"
+    },
+    {
+        "time": 1632164400000,
+        "value": "Detail 311"
+    },
+    {
+        "time": 1632168000000,
+        "value": "Detail 312"
+    },
+    {
+        "time": 1632171600000,
+        "value": "Detail 313"
+    },
+    {
+        "time": 1632175200000,
+        "value": "Detail 314"
+    },
+    {
+        "time": 1632178800000,
+        "value": "Detail 315"
+    },
+    {
+        "time": 1632182400000,
+        "value": "Detail 316"
+    },
+    {
+        "time": 1632186000000,
+        "value": "Detail 317"
+    },
+    {
+        "time": 1632189600000,
+        "value": "Detail 318"
+    },
+    {
+        "time": 1632193200000,
+        "value": "Detail 319"
+    },
+    {
+        "time": 1632196800000,
+        "value": "Detail 320"
+    },
+    {
+        "time": 1632200400000,
+        "value": "Detail 321"
+    },
+    {
+        "time": 1632204000000,
+        "value": "Detail 322"
+    },
+    {
+        "time": 1632207600000,
+        "value": "Detail 323"
+    },
+    {
+        "time": 1632211200000,
+        "value": "Detail 324"
+    },
+    {
+        "time": 1632214800000,
+        "value": "Detail 325"
+    },
+    {
+        "time": 1632218400000,
+        "value": "Detail 326"
+    },
+    {
+        "time": 1632222000000,
+        "value": "Detail 327"
+    },
+    {
+        "time": 1632225600000,
+        "value": "Detail 328"
+    },
+    {
+        "time": 1632229200000,
+        "value": "Detail 329"
+    },
+    {
+        "time": 1632232800000,
+        "value": "Detail 330"
+    },
+    {
+        "time": 1632236400000,
+        "value": "Detail 331"
+    },
+    {
+        "time": 1632240000000,
+        "value": "Detail 332"
+    },
+    {
+        "time": 1632243600000,
+        "value": "Detail 333"
+    },
+    {
+        "time": 1632247200000,
+        "value": "Detail 334"
+    },
+    {
+        "time": 1632250800000,
+        "value": "Detail 335"
+    },
+    {
+        "time": 1632254400000,
+        "value": "Detail 336"
+    },
+    {
+        "time": 1632258000000,
+        "value": "Detail 337"
+    },
+    {
+        "time": 1632261600000,
+        "value": "Detail 338"
+    },
+    {
+        "time": 1632265200000,
+        "value": "Detail 339"
+    },
+    {
+        "time": 1632268800000,
+        "value": "Detail 340"
+    },
+    {
+        "time": 1632272400000,
+        "value": "Detail 341"
+    },
+    {
+        "time": 1632276000000,
+        "value": "Detail 342"
+    },
+    {
+        "time": 1632279600000,
+        "value": "Detail 343"
+    },
+    {
+        "time": 1632283200000,
+        "value": "Detail 344"
+    },
+    {
+        "time": 1632286800000,
+        "value": "Detail 345"
+    },
+    {
+        "time": 1632290400000,
+        "value": "Detail 346"
+    },
+    {
+        "time": 1632294000000,
+        "value": "Detail 347"
+    },
+    {
+        "time": 1632297600000,
+        "value": "Detail 348"
+    },
+    {
+        "time": 1632301200000,
+        "value": "Detail 349"
+    },
+    {
+        "time": 1632304800000,
+        "value": "Detail 350"
+    },
+    {
+        "time": 1632308400000,
+        "value": "Detail 351"
+    },
+    {
+        "time": 1632312000000,
+        "value": "Detail 352"
+    },
+    {
+        "time": 1632315600000,
+        "value": "Detail 353"
+    },
+    {
+        "time": 1632319200000,
+        "value": "Detail 354"
+    },
+    {
+        "time": 1632322800000,
+        "value": "Detail 355"
+    },
+    {
+        "time": 1632326400000,
+        "value": "Detail 356"
+    },
+    {
+        "time": 1632330000000,
+        "value": "Detail 357"
+    },
+    {
+        "time": 1632333600000,
+        "value": "Detail 358"
+    },
+    {
+        "time": 1632337200000,
+        "value": "Detail 359"
+    },
+    {
+        "time": 1632340800000,
+        "value": "Detail 360"
+    },
+    {
+        "time": 1632344400000,
+        "value": "Detail 361"
+    },
+    {
+        "time": 1632348000000,
+        "value": "Detail 362"
+    },
+    {
+        "time": 1632351600000,
+        "value": "Detail 363"
+    },
+    {
+        "time": 1632355200000,
+        "value": "Detail 364"
+    },
+    {
+        "time": 1632358800000,
+        "value": "Detail 365"
+    },
+    {
+        "time": 1632362400000,
+        "value": "Detail 366"
+    },
+    {
+        "time": 1632366000000,
+        "value": "Detail 367"
+    },
+    {
+        "time": 1632369600000,
+        "value": "Detail 368"
+    },
+    {
+        "time": 1632373200000,
+        "value": "Detail 369"
+    },
+    {
+        "time": 1632376800000,
+        "value": "Detail 370"
+    },
+    {
+        "time": 1632380400000,
+        "value": "Detail 371"
+    },
+    {
+        "time": 1632384000000,
+        "value": "Detail 372"
+    },
+    {
+        "time": 1632387600000,
+        "value": "Detail 373"
+    },
+    {
+        "time": 1632391200000,
+        "value": "Detail 374"
+    },
+    {
+        "time": 1632394800000,
+        "value": "Detail 375"
+    },
+    {
+        "time": 1632398400000,
+        "value": "Detail 376"
+    },
+    {
+        "time": 1632402000000,
+        "value": "Detail 377"
+    },
+    {
+        "time": 1632405600000,
+        "value": "Detail 378"
+    },
+    {
+        "time": 1632409200000,
+        "value": "Detail 379"
+    },
+    {
+        "time": 1632412800000,
+        "value": "Detail 380"
+    },
+    {
+        "time": 1632416400000,
+        "value": "Detail 381"
+    },
+    {
+        "time": 1632420000000,
+        "value": "Detail 382"
+    },
+    {
+        "time": 1632423600000,
+        "value": "Detail 383"
+    },
+    {
+        "time": 1632427200000,
+        "value": "Detail 384"
+    },
+    {
+        "time": 1632430800000,
+        "value": "Detail 385"
+    },
+    {
+        "time": 1632434400000,
+        "value": "Detail 386"
+    },
+    {
+        "time": 1632438000000,
+        "value": "Detail 387"
+    },
+    {
+        "time": 1632441600000,
+        "value": "Detail 388"
+    },
+    {
+        "time": 1632445200000,
+        "value": "Detail 389"
+    },
+    {
+        "time": 1632448800000,
+        "value": "Detail 390"
+    },
+    {
+        "time": 1632452400000,
+        "value": "Detail 391"
+    },
+    {
+        "time": 1632456000000,
+        "value": "Detail 392"
+    },
+    {
+        "time": 1632459600000,
+        "value": "Detail 393"
+    },
+    {
+        "time": 1632463200000,
+        "value": "Detail 394"
+    },
+    {
+        "time": 1632466800000,
+        "value": "Detail 395"
+    },
+    {
+        "time": 1632470400000,
+        "value": "Detail 396"
+    },
+    {
+        "time": 1632474000000,
+        "value": "Detail 397"
+    },
+    {
+        "time": 1632477600000,
+        "value": "Detail 398"
+    },
+    {
+        "time": 1632481200000,
+        "value": "Detail 399"
+    },
+    {
+        "time": 1632484800000,
+        "value": "Detail 400"
+    },
+    {
+        "time": 1632488400000,
+        "value": "Detail 401"
+    },
+    {
+        "time": 1632492000000,
+        "value": "Detail 402"
+    },
+    {
+        "time": 1632495600000,
+        "value": "Detail 403"
+    },
+    {
+        "time": 1632499200000,
+        "value": "Detail 404"
+    },
+    {
+        "time": 1632502800000,
+        "value": "Detail 405"
+    },
+    {
+        "time": 1632506400000,
+        "value": "Detail 406"
+    },
+    {
+        "time": 1632510000000,
+        "value": "Detail 407"
+    },
+    {
+        "time": 1632513600000,
+        "value": "Detail 408"
+    },
+    {
+        "time": 1632517200000,
+        "value": "Detail 409"
+    },
+    {
+        "time": 1632520800000,
+        "value": "Detail 410"
+    },
+    {
+        "time": 1632524400000,
+        "value": "Detail 411"
+    },
+    {
+        "time": 1632528000000,
+        "value": "Detail 412"
+    },
+    {
+        "time": 1632531600000,
+        "value": "Detail 413"
+    },
+    {
+        "time": 1632535200000,
+        "value": "Detail 414"
+    },
+    {
+        "time": 1632538800000,
+        "value": "Detail 415"
+    },
+    {
+        "time": 1632542400000,
+        "value": "Detail 416"
+    },
+    {
+        "time": 1632546000000,
+        "value": "Detail 417"
+    },
+    {
+        "time": 1632549600000,
+        "value": "Detail 418"
+    },
+    {
+        "time": 1632553200000,
+        "value": "Detail 419"
+    },
+    {
+        "time": 1632556800000,
+        "value": "Detail 420"
+    },
+    {
+        "time": 1632560400000,
+        "value": "Detail 421"
+    },
+    {
+        "time": 1632564000000,
+        "value": "Detail 422"
+    },
+    {
+        "time": 1632567600000,
+        "value": "Detail 423"
+    },
+    {
+        "time": 1632571200000,
+        "value": "Detail 424"
+    },
+    {
+        "time": 1632574800000,
+        "value": "Detail 425"
+    },
+    {
+        "time": 1632578400000,
+        "value": "Detail 426"
+    },
+    {
+        "time": 1632582000000,
+        "value": "Detail 427"
+    },
+    {
+        "time": 1632585600000,
+        "value": "Detail 428"
+    },
+    {
+        "time": 1632589200000,
+        "value": "Detail 429"
+    },
+    {
+        "time": 1632592800000,
+        "value": "Detail 430"
+    },
+    {
+        "time": 1632596400000,
+        "value": "Detail 431"
+    },
+    {
+        "time": 1632600000000,
+        "value": "Detail 432"
+    },
+    {
+        "time": 1632603600000,
+        "value": "Detail 433"
+    },
+    {
+        "time": 1632607200000,
+        "value": "Detail 434"
+    },
+    {
+        "time": 1632610800000,
+        "value": "Detail 435"
+    },
+    {
+        "time": 1632614400000,
+        "value": "Detail 436"
+    },
+    {
+        "time": 1632618000000,
+        "value": "Detail 437"
+    },
+    {
+        "time": 1632621600000,
+        "value": "Detail 438"
+    },
+    {
+        "time": 1632625200000,
+        "value": "Detail 439"
+    },
+    {
+        "time": 1632628800000,
+        "value": "Detail 440"
+    },
+    {
+        "time": 1632632400000,
+        "value": "Detail 441"
+    },
+    {
+        "time": 1632636000000,
+        "value": "Detail 442"
+    },
+    {
+        "time": 1632639600000,
+        "value": "Detail 443"
+    },
+    {
+        "time": 1632643200000,
+        "value": "Detail 444"
+    },
+    {
+        "time": 1632646800000,
+        "value": "Detail 445"
+    },
+    {
+        "time": 1632650400000,
+        "value": "Detail 446"
+    },
+    {
+        "time": 1632654000000,
+        "value": "Detail 447"
+    },
+    {
+        "time": 1632657600000,
+        "value": "Detail 448"
+    },
+    {
+        "time": 1632661200000,
+        "value": "Detail 449"
+    },
+    {
+        "time": 1632664800000,
+        "value": "Detail 450"
+    },
+    {
+        "time": 1632668400000,
+        "value": "Detail 451"
+    },
+    {
+        "time": 1632672000000,
+        "value": "Detail 452"
+    },
+    {
+        "time": 1632675600000,
+        "value": "Detail 453"
+    },
+    {
+        "time": 1632679200000,
+        "value": "Detail 454"
+    },
+    {
+        "time": 1632682800000,
+        "value": "Detail 455"
+    },
+    {
+        "time": 1632686400000,
+        "value": "Detail 456"
+    },
+    {
+        "time": 1632690000000,
+        "value": "Detail 457"
+    },
+    {
+        "time": 1632693600000,
+        "value": "Detail 458"
+    },
+    {
+        "time": 1632697200000,
+        "value": "Detail 459"
+    },
+    {
+        "time": 1632700800000,
+        "value": "Detail 460"
+    },
+    {
+        "time": 1632704400000,
+        "value": "Detail 461"
+    },
+    {
+        "time": 1632708000000,
+        "value": "Detail 462"
+    },
+    {
+        "time": 1632711600000,
+        "value": "Detail 463"
+    },
+    {
+        "time": 1632715200000,
+        "value": "Detail 464"
+    },
+    {
+        "time": 1632718800000,
+        "value": "Detail 465"
+    },
+    {
+        "time": 1632722400000,
+        "value": "Detail 466"
+    },
+    {
+        "time": 1632726000000,
+        "value": "Detail 467"
+    },
+    {
+        "time": 1632729600000,
+        "value": "Detail 468"
+    },
+    {
+        "time": 1632733200000,
+        "value": "Detail 469"
+    },
+    {
+        "time": 1632736800000,
+        "value": "Detail 470"
+    },
+    {
+        "time": 1632740400000,
+        "value": "Detail 471"
+    },
+    {
+        "time": 1632744000000,
+        "value": "Detail 472"
+    },
+    {
+        "time": 1632747600000,
+        "value": "Detail 473"
+    },
+    {
+        "time": 1632751200000,
+        "value": "Detail 474"
+    },
+    {
+        "time": 1632754800000,
+        "value": "Detail 475"
+    },
+    {
+        "time": 1632758400000,
+        "value": "Detail 476"
+    },
+    {
+        "time": 1632762000000,
+        "value": "Detail 477"
+    },
+    {
+        "time": 1632765600000,
+        "value": "Detail 478"
+    },
+    {
+        "time": 1632769200000,
+        "value": "Detail 479"
+    },
+    {
+        "time": 1632772800000,
+        "value": "Detail 480"
+    },
+    {
+        "time": 1632776400000,
+        "value": "Detail 481"
+    },
+    {
+        "time": 1632780000000,
+        "value": "Detail 482"
+    },
+    {
+        "time": 1632783600000,
+        "value": "Detail 483"
+    },
+    {
+        "time": 1632787200000,
+        "value": "Detail 484"
+    },
+    {
+        "time": 1632790800000,
+        "value": "Detail 485"
+    },
+    {
+        "time": 1632794400000,
+        "value": "Detail 486"
+    },
+    {
+        "time": 1632798000000,
+        "value": "Detail 487"
+    },
+    {
+        "time": 1632801600000,
+        "value": "Detail 488"
+    },
+    {
+        "time": 1632805200000,
+        "value": "Detail 489"
+    },
+    {
+        "time": 1632808800000,
+        "value": "Detail 490"
+    },
+    {
+        "time": 1632812400000,
+        "value": "Detail 491"
+    },
+    {
+        "time": 1632816000000,
+        "value": "Detail 492"
+    },
+    {
+        "time": 1632819600000,
+        "value": "Detail 493"
+    },
+    {
+        "time": 1632823200000,
+        "value": "Detail 494"
+    },
+    {
+        "time": 1632826800000,
+        "value": "Detail 495"
+    },
+    {
+        "time": 1632830400000,
+        "value": "Detail 496"
+    },
+    {
+        "time": 1632834000000,
+        "value": "Detail 497"
+    },
+    {
+        "time": 1632837600000,
+        "value": "Detail 498"
+    },
+    {
+        "time": 1632841200000,
+        "value": "Detail 499"
+    },
+    {
+        "time": 1632844800000,
+        "value": "Detail 500"
+    },
+    {
+        "time": 1632848400000,
+        "value": "Detail 501"
+    },
+    {
+        "time": 1632852000000,
+        "value": "Detail 502"
+    },
+    {
+        "time": 1632855600000,
+        "value": "Detail 503"
+    },
+    {
+        "time": 1632859200000,
+        "value": "Detail 504"
+    },
+    {
+        "time": 1632862800000,
+        "value": "Detail 505"
+    },
+    {
+        "time": 1632866400000,
+        "value": "Detail 506"
+    },
+    {
+        "time": 1632870000000,
+        "value": "Detail 507"
+    },
+    {
+        "time": 1632873600000,
+        "value": "Detail 508"
+    },
+    {
+        "time": 1632877200000,
+        "value": "Detail 509"
+    },
+    {
+        "time": 1632880800000,
+        "value": "Detail 510"
+    },
+    {
+        "time": 1632884400000,
+        "value": "Detail 511"
+    },
+    {
+        "time": 1632888000000,
+        "value": "Detail 512"
+    },
+    {
+        "time": 1632891600000,
+        "value": "Detail 513"
+    },
+    {
+        "time": 1632895200000,
+        "value": "Detail 514"
+    },
+    {
+        "time": 1632898800000,
+        "value": "Detail 515"
+    },
+    {
+        "time": 1632902400000,
+        "value": "Detail 516"
+    },
+    {
+        "time": 1632906000000,
+        "value": "Detail 517"
+    },
+    {
+        "time": 1632909600000,
+        "value": "Detail 518"
+    },
+    {
+        "time": 1632913200000,
+        "value": "Detail 519"
+    },
+    {
+        "time": 1632916800000,
+        "value": "Detail 520"
+    },
+    {
+        "time": 1632920400000,
+        "value": "Detail 521"
+    },
+    {
+        "time": 1632924000000,
+        "value": "Detail 522"
+    },
+    {
+        "time": 1632927600000,
+        "value": "Detail 523"
+    },
+    {
+        "time": 1632931200000,
+        "value": "Detail 524"
+    },
+    {
+        "time": 1632934800000,
+        "value": "Detail 525"
+    },
+    {
+        "time": 1632938400000,
+        "value": "Detail 526"
+    },
+    {
+        "time": 1632942000000,
+        "value": "Detail 527"
+    },
+    {
+        "time": 1632945600000,
+        "value": "Detail 528"
+    },
+    {
+        "time": 1632949200000,
+        "value": "Detail 529"
+    },
+    {
+        "time": 1632952800000,
+        "value": "Detail 530"
+    },
+    {
+        "time": 1632956400000,
+        "value": "Detail 531"
+    },
+    {
+        "time": 1632960000000,
+        "value": "Detail 532"
+    },
+    {
+        "time": 1632963600000,
+        "value": "Detail 533"
+    },
+    {
+        "time": 1632967200000,
+        "value": "Detail 534"
+    },
+    {
+        "time": 1632970800000,
+        "value": "Detail 535"
+    },
+    {
+        "time": 1632974400000,
+        "value": "Detail 536"
+    },
+    {
+        "time": 1632978000000,
+        "value": "Detail 537"
+    },
+    {
+        "time": 1632981600000,
+        "value": "Detail 538"
+    },
+    {
+        "time": 1632985200000,
+        "value": "Detail 539"
+    },
+    {
+        "time": 1632988800000,
+        "value": "Detail 540"
+    },
+    {
+        "time": 1632992400000,
+        "value": "Detail 541"
+    },
+    {
+        "time": 1632996000000,
+        "value": "Detail 542"
+    },
+    {
+        "time": 1632999600000,
+        "value": "Detail 543"
+    },
+    {
+        "time": 1633003200000,
+        "value": "Detail 544"
+    },
+    {
+        "time": 1633006800000,
+        "value": "Detail 545"
+    },
+    {
+        "time": 1633010400000,
+        "value": "Detail 546"
+    },
+    {
+        "time": 1633014000000,
+        "value": "Detail 547"
+    },
+    {
+        "time": 1633017600000,
+        "value": "Detail 548"
+    },
+    {
+        "time": 1633021200000,
+        "value": "Detail 549"
+    },
+    {
+        "time": 1633024800000,
+        "value": "Detail 550"
+    },
+    {
+        "time": 1633028400000,
+        "value": "Detail 551"
+    },
+    {
+        "time": 1633032000000,
+        "value": "Detail 552"
+    },
+    {
+        "time": 1633035600000,
+        "value": "Detail 553"
+    },
+    {
+        "time": 1633039200000,
+        "value": "Detail 554"
+    },
+    {
+        "time": 1633042800000,
+        "value": "Detail 555"
+    },
+    {
+        "time": 1633046400000,
+        "value": "Detail 556"
+    },
+    {
+        "time": 1633050000000,
+        "value": "Detail 557"
+    },
+    {
+        "time": 1633053600000,
+        "value": "Detail 558"
+    },
+    {
+        "time": 1633057200000,
+        "value": "Detail 559"
+    },
+    {
+        "time": 1633060800000,
+        "value": "Detail 560"
+    },
+    {
+        "time": 1633064400000,
+        "value": "Detail 561"
+    },
+    {
+        "time": 1633068000000,
+        "value": "Detail 562"
+    },
+    {
+        "time": 1633071600000,
+        "value": "Detail 563"
+    },
+    {
+        "time": 1633075200000,
+        "value": "Detail 564"
+    },
+    {
+        "time": 1633078800000,
+        "value": "Detail 565"
+    },
+    {
+        "time": 1633082400000,
+        "value": "Detail 566"
+    },
+    {
+        "time": 1633086000000,
+        "value": "Detail 567"
+    },
+    {
+        "time": 1633089600000,
+        "value": "Detail 568"
+    },
+    {
+        "time": 1633093200000,
+        "value": "Detail 569"
+    },
+    {
+        "time": 1633096800000,
+        "value": "Detail 570"
+    },
+    {
+        "time": 1633100400000,
+        "value": "Detail 571"
+    },
+    {
+        "time": 1633104000000,
+        "value": "Detail 572"
+    },
+    {
+        "time": 1633107600000,
+        "value": "Detail 573"
+    },
+    {
+        "time": 1633111200000,
+        "value": "Detail 574"
+    },
+    {
+        "time": 1633114800000,
+        "value": "Detail 575"
+    },
+    {
+        "time": 1633118400000,
+        "value": "Detail 576"
+    },
+    {
+        "time": 1633122000000,
+        "value": "Detail 577"
+    },
+    {
+        "time": 1633125600000,
+        "value": "Detail 578"
+    },
+    {
+        "time": 1633129200000,
+        "value": "Detail 579"
+    },
+    {
+        "time": 1633132800000,
+        "value": "Detail 580"
+    },
+    {
+        "time": 1633136400000,
+        "value": "Detail 581"
+    },
+    {
+        "time": 1633140000000,
+        "value": "Detail 582"
+    },
+    {
+        "time": 1633143600000,
+        "value": "Detail 583"
+    },
+    {
+        "time": 1633147200000,
+        "value": "Detail 584"
+    },
+    {
+        "time": 1633150800000,
+        "value": "Detail 585"
+    },
+    {
+        "time": 1633154400000,
+        "value": "Detail 586"
+    },
+    {
+        "time": 1633158000000,
+        "value": "Detail 587"
+    },
+    {
+        "time": 1633161600000,
+        "value": "Detail 588"
+    },
+    {
+        "time": 1633165200000,
+        "value": "Detail 589"
+    },
+    {
+        "time": 1633168800000,
+        "value": "Detail 590"
+    },
+    {
+        "time": 1633172400000,
+        "value": "Detail 591"
+    },
+    {
+        "time": 1633176000000,
+        "value": "Detail 592"
+    },
+    {
+        "time": 1633179600000,
+        "value": "Detail 593"
+    },
+    {
+        "time": 1633183200000,
+        "value": "Detail 594"
+    },
+    {
+        "time": 1633186800000,
+        "value": "Detail 595"
+    },
+    {
+        "time": 1633190400000,
+        "value": "Detail 596"
+    },
+    {
+        "time": 1633194000000,
+        "value": "Detail 597"
+    },
+    {
+        "time": 1633197600000,
+        "value": "Detail 598"
+    },
+    {
+        "time": 1633201200000,
+        "value": "Detail 599"
+    },
+    {
+        "time": 1633204800000,
+        "value": "Detail 600"
+    },
+    {
+        "time": 1633208400000,
+        "value": "Detail 601"
+    },
+    {
+        "time": 1633212000000,
+        "value": "Detail 602"
+    },
+    {
+        "time": 1633215600000,
+        "value": "Detail 603"
+    },
+    {
+        "time": 1633219200000,
+        "value": "Detail 604"
+    },
+    {
+        "time": 1633222800000,
+        "value": "Detail 605"
+    },
+    {
+        "time": 1633226400000,
+        "value": "Detail 606"
+    },
+    {
+        "time": 1633230000000,
+        "value": "Detail 607"
+    },
+    {
+        "time": 1633233600000,
+        "value": "Detail 608"
+    },
+    {
+        "time": 1633237200000,
+        "value": "Detail 609"
+    },
+    {
+        "time": 1633240800000,
+        "value": "Detail 610"
+    },
+    {
+        "time": 1633244400000,
+        "value": "Detail 611"
+    },
+    {
+        "time": 1633248000000,
+        "value": "Detail 612"
+    },
+    {
+        "time": 1633251600000,
+        "value": "Detail 613"
+    },
+    {
+        "time": 1633255200000,
+        "value": "Detail 614"
+    },
+    {
+        "time": 1633258800000,
+        "value": "Detail 615"
+    },
+    {
+        "time": 1633262400000,
+        "value": "Detail 616"
+    },
+    {
+        "time": 1633266000000,
+        "value": "Detail 617"
+    },
+    {
+        "time": 1633269600000,
+        "value": "Detail 618"
+    },
+    {
+        "time": 1633273200000,
+        "value": "Detail 619"
+    },
+    {
+        "time": 1633276800000,
+        "value": "Detail 620"
+    },
+    {
+        "time": 1633280400000,
+        "value": "Detail 621"
+    },
+    {
+        "time": 1633284000000,
+        "value": "Detail 622"
+    },
+    {
+        "time": 1633287600000,
+        "value": "Detail 623"
+    },
+    {
+        "time": 1633291200000,
+        "value": "Detail 624"
+    },
+    {
+        "time": 1633294800000,
+        "value": "Detail 625"
+    },
+    {
+        "time": 1633298400000,
+        "value": "Detail 626"
+    },
+    {
+        "time": 1633302000000,
+        "value": "Detail 627"
+    },
+    {
+        "time": 1633305600000,
+        "value": "Detail 628"
+    },
+    {
+        "time": 1633309200000,
+        "value": "Detail 629"
+    },
+    {
+        "time": 1633312800000,
+        "value": "Detail 630"
+    },
+    {
+        "time": 1633316400000,
+        "value": "Detail 631"
+    },
+    {
+        "time": 1633320000000,
+        "value": "Detail 632"
+    },
+    {
+        "time": 1633323600000,
+        "value": "Detail 633"
+    },
+    {
+        "time": 1633327200000,
+        "value": "Detail 634"
+    },
+    {
+        "time": 1633330800000,
+        "value": "Detail 635"
+    },
+    {
+        "time": 1633334400000,
+        "value": "Detail 636"
+    },
+    {
+        "time": 1633338000000,
+        "value": "Detail 637"
+    },
+    {
+        "time": 1633341600000,
+        "value": "Detail 638"
+    },
+    {
+        "time": 1633345200000,
+        "value": "Detail 639"
+    },
+    {
+        "time": 1633348800000,
+        "value": "Detail 640"
+    },
+    {
+        "time": 1633352400000,
+        "value": "Detail 641"
+    },
+    {
+        "time": 1633356000000,
+        "value": "Detail 642"
+    },
+    {
+        "time": 1633359600000,
+        "value": "Detail 643"
+    },
+    {
+        "time": 1633363200000,
+        "value": "Detail 644"
+    },
+    {
+        "time": 1633366800000,
+        "value": "Detail 645"
+    },
+    {
+        "time": 1633370400000,
+        "value": "Detail 646"
+    },
+    {
+        "time": 1633374000000,
+        "value": "Detail 647"
+    },
+    {
+        "time": 1633377600000,
+        "value": "Detail 648"
+    },
+    {
+        "time": 1633381200000,
+        "value": "Detail 649"
+    },
+    {
+        "time": 1633384800000,
+        "value": "Detail 650"
+    },
+    {
+        "time": 1633388400000,
+        "value": "Detail 651"
+    },
+    {
+        "time": 1633392000000,
+        "value": "Detail 652"
+    },
+    {
+        "time": 1633395600000,
+        "value": "Detail 653"
+    },
+    {
+        "time": 1633399200000,
+        "value": "Detail 654"
+    },
+    {
+        "time": 1633402800000,
+        "value": "Detail 655"
+    },
+    {
+        "time": 1633406400000,
+        "value": "Detail 656"
+    },
+    {
+        "time": 1633410000000,
+        "value": "Detail 657"
+    },
+    {
+        "time": 1633413600000,
+        "value": "Detail 658"
+    },
+    {
+        "time": 1633417200000,
+        "value": "Detail 659"
+    },
+    {
+        "time": 1633420800000,
+        "value": "Detail 660"
+    },
+    {
+        "time": 1633424400000,
+        "value": "Detail 661"
+    },
+    {
+        "time": 1633428000000,
+        "value": "Detail 662"
+    },
+    {
+        "time": 1633431600000,
+        "value": "Detail 663"
+    },
+    {
+        "time": 1633435200000,
+        "value": "Detail 664"
+    },
+    {
+        "time": 1633438800000,
+        "value": "Detail 665"
+    },
+    {
+        "time": 1633442400000,
+        "value": "Detail 666"
+    },
+    {
+        "time": 1633446000000,
+        "value": "Detail 667"
+    },
+    {
+        "time": 1633449600000,
+        "value": "Detail 668"
+    },
+    {
+        "time": 1633453200000,
+        "value": "Detail 669"
+    },
+    {
+        "time": 1633456800000,
+        "value": "Detail 670"
+    },
+    {
+        "time": 1633460400000,
+        "value": "Detail 671"
+    },
+    {
+        "time": 1633464000000,
+        "value": "Detail 672"
+    },
+    {
+        "time": 1633467600000,
+        "value": "Detail 673"
+    },
+    {
+        "time": 1633471200000,
+        "value": "Detail 674"
+    },
+    {
+        "time": 1633474800000,
+        "value": "Detail 675"
+    },
+    {
+        "time": 1633478400000,
+        "value": "Detail 676"
+    },
+    {
+        "time": 1633482000000,
+        "value": "Detail 677"
+    },
+    {
+        "time": 1633485600000,
+        "value": "Detail 678"
+    },
+    {
+        "time": 1633489200000,
+        "value": "Detail 679"
+    },
+    {
+        "time": 1633492800000,
+        "value": "Detail 680"
+    },
+    {
+        "time": 1633496400000,
+        "value": "Detail 681"
+    },
+    {
+        "time": 1633500000000,
+        "value": "Detail 682"
+    },
+    {
+        "time": 1633503600000,
+        "value": "Detail 683"
+    },
+    {
+        "time": 1633507200000,
+        "value": "Detail 684"
+    },
+    {
+        "time": 1633510800000,
+        "value": "Detail 685"
+    },
+    {
+        "time": 1633514400000,
+        "value": "Detail 686"
+    },
+    {
+        "time": 1633518000000,
+        "value": "Detail 687"
+    },
+    {
+        "time": 1633521600000,
+        "value": "Detail 688"
+    },
+    {
+        "time": 1633525200000,
+        "value": "Detail 689"
+    },
+    {
+        "time": 1633528800000,
+        "value": "Detail 690"
+    },
+    {
+        "time": 1633532400000,
+        "value": "Detail 691"
+    },
+    {
+        "time": 1633536000000,
+        "value": "Detail 692"
+    },
+    {
+        "time": 1633539600000,
+        "value": "Detail 693"
+    },
+    {
+        "time": 1633543200000,
+        "value": "Detail 694"
+    },
+    {
+        "time": 1633546800000,
+        "value": "Detail 695"
+    },
+    {
+        "time": 1633550400000,
+        "value": "Detail 696"
+    },
+    {
+        "time": 1633554000000,
+        "value": "Detail 697"
+    },
+    {
+        "time": 1633557600000,
+        "value": "Detail 698"
+    },
+    {
+        "time": 1633561200000,
+        "value": "Detail 699"
+    },
+    {
+        "time": 1633564800000,
+        "value": "Detail 700"
+    },
+    {
+        "time": 1633568400000,
+        "value": "Detail 701"
+    },
+    {
+        "time": 1633572000000,
+        "value": "Detail 702"
+    },
+    {
+        "time": 1633575600000,
+        "value": "Detail 703"
+    },
+    {
+        "time": 1633579200000,
+        "value": "Detail 704"
+    },
+    {
+        "time": 1633582800000,
+        "value": "Detail 705"
+    },
+    {
+        "time": 1633586400000,
+        "value": "Detail 706"
+    },
+    {
+        "time": 1633590000000,
+        "value": "Detail 707"
+    },
+    {
+        "time": 1633593600000,
+        "value": "Detail 708"
+    },
+    {
+        "time": 1633597200000,
+        "value": "Detail 709"
+    },
+    {
+        "time": 1633600800000,
+        "value": "Detail 710"
+    },
+    {
+        "time": 1633604400000,
+        "value": "Detail 711"
+    },
+    {
+        "time": 1633608000000,
+        "value": "Detail 712"
+    },
+    {
+        "time": 1633611600000,
+        "value": "Detail 713"
+    },
+    {
+        "time": 1633615200000,
+        "value": "Detail 714"
+    },
+    {
+        "time": 1633618800000,
+        "value": "Detail 715"
+    },
+    {
+        "time": 1633622400000,
+        "value": "Detail 716"
+    },
+    {
+        "time": 1633626000000,
+        "value": "Detail 717"
+    },
+    {
+        "time": 1633629600000,
+        "value": "Detail 718"
+    },
+    {
+        "time": 1633633200000,
+        "value": "Detail 719"
+    },
+    {
+        "time": 1633636800000,
+        "value": "Detail 720"
+    }
+]

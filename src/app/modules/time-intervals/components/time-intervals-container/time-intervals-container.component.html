@@ -1,0 +1,9 @@
+<app-time-interval-filter (filterChange)="applySearch($event)" (filterInit)="applySearch($event)"></app-time-interval-filter>
+
+<app-grid-table [columns]="(search$ | async)?.intervalDiff | timeIntervalColumns : columnTemplate"
+                [dataSource]="timeIntervals$ | async | groupTimeIntervals">
+</app-grid-table>
+
+<ng-template #columnTemplate let-interval let-key="key">
+    {{ interval[key]?.value }}
+</ng-template>
