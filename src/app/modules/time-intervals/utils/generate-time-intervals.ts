@@ -9,7 +9,10 @@ function generateTimeIntervals({ intervalDiff }: TimeIntervalSearchType): TimeIn
 
     return new Array(intervalCount)
         .fill(0)
-        .map((_: number, index: number) => ({ time: startTimestamp + index * intervalDiff, value: `Detail ${index + 1}` }));
+        .map((_: number, index: number) => ({
+            time: startTimestamp + index * intervalDiff,
+            value: `Detail ${index + 1}`,
+        }));
 }
 
 function getStartTimestamp(): number {

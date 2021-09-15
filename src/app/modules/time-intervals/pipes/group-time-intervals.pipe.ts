@@ -23,7 +23,11 @@ export class GroupTimeIntervalsPipe implements PipeTransform {
         return timeIntervals.reduce((groupedIntervals: Record<string, Record<string, TimeIntervalType>>, interval: TimeIntervalType) => {
             const dateKey = this.getDateKey(interval);
             const timeKey = this.getTimeKey(interval);
-            return { ...groupedIntervals, [dateKey]: { ...(groupedIntervals[dateKey] ?? {}), ...{ [timeKey]: interval }}};
+
+            return {
+                ...groupedIntervals,
+                [dateKey]: { ...(groupedIntervals[dateKey] ?? {}), ...{ [timeKey]: interval } },
+            };
         }, {});
     }
 

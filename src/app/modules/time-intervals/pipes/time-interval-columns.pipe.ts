@@ -20,6 +20,9 @@ export class TimeIntervalColumnsPipe implements PipeTransform {
 
         return new Array(intervalCount)
             .fill(0)
-            .map((_: number, index: number) => ({ template, key: this.datePipe.transform(timezoneOffsetMilliseconds + index * intervalDiff, 'HH:mm') as string}))
+            .map((_: number, index: number) => ({
+                template,
+                key: this.datePipe.transform(timezoneOffsetMilliseconds + index * intervalDiff, 'HH:mm') as string,
+            }));
     }
 }

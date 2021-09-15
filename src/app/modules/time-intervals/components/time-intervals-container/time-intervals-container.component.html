@@ -1,4 +1,6 @@
-<app-time-interval-filter (filterChange)="applySearch($event)" (filterInit)="applySearch($event)"></app-time-interval-filter>
+<app-time-interval-filter (filterChange)="applySearch($event)"
+                          (filterInit)="applySearch($event)">
+</app-time-interval-filter>
 
 <app-grid-table [columns]="(search$ | async)?.intervalDiff | timeIntervalColumns : columnTemplate"
                 [dataSource]="timeIntervals$ | async | groupTimeIntervals">

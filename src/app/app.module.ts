@@ -15,7 +15,7 @@ import { AppComponent } from './app.component';
         BrowserModule,
         RouterModule.forRoot(appRoutes),
         BrowserAnimationsModule,
-        HttpClientModule
+        HttpClientModule,
     ],
     providers: [DatePipe],
     bootstrap: [AppComponent],
