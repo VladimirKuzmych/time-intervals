@@ -13,22 +13,26 @@ export class GroupTimeIntervalsPipe implements PipeTransform {
         if (!timeIntervals?.length) {
             return [];
         }
-
         const groupedTimeIntervalsRecord = this.getGroupedTimeIntervalsRecord(timeIntervals);
 
         return Object.values(groupedTimeIntervalsRecord);
     }
 
     private getGroupedTimeIntervalsRecord(timeIntervals: TimeIntervalType[]): Record<string, Record<string, TimeIntervalType>> {
-        return timeIntervals.reduce((groupedIntervals: Record<string, Record<string, TimeIntervalType>>, interval: TimeIntervalType) => {
+        const groupedIntervals: Record<string, Record<string, TimeIntervalType>> = {};
+
+        timeIntervals.forEach((interval: TimeIntervalType) => {
             const dateKey = this.getDateKey(interval);
             const timeKey = this.getTimeKey(interval);
 
-            return {
-                ...groupedIntervals,
-                [dateKey]: { ...(groupedIntervals[dateKey] ?? {}), ...{ [timeKey]: interval } },
-            };
-        }, {});
+            if (groupedIntervals[dateKey]) {
+                groupedIntervals[dateKey][timeKey] = interval;
+            } else {
+                groupedIntervals[dateKey] = { [timeKey]: interval };
+            }
+        });
+
+        return groupedIntervals;
     }
 
     private getTimeKey(timeInterval: TimeIntervalType): string {
