@@ -3,8 +3,17 @@
     overflow-x: auto;
 }
 
-td.mat-cell, th.mat-header-cell {
-    padding: 4px 8px;
+td, th {
+    padding: 12px 16px;
     text-align: center;
     white-space: nowrap;
+}
+
+tr {
+    border-bottom: 1px solid lightgrey;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
 }

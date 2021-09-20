@@ -10,5 +10,6 @@ import { GridTableColumnConfigType } from '../../types';
 export class GridTableComponent {
     // it works slow with large amount of data, I will try to add cdk virtual scroll in the future
     @Input() public columns: GridTableColumnConfigType[] = [];
-    @Input() public dataSource: unknown[] = [];
+    @Input() public dataSource: any[] = [];
+    @Input() public initialCellCount = 50;
 }
